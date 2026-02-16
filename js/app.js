@@ -1,5 +1,5 @@
 function adicionar() {
-    let opcoes = document.getElementById('produto');
+    let opcoes = document.getElementById('produto').value;
     let nomeProduto = opcoes.split('-')[0];
     let valorUnitario = opcoes.split('R$')[1];
     let quantidade = document.getElementById('quantidade');
@@ -9,6 +9,7 @@ function adicionar() {
     let preco = quantidade.value * valorUnitario;
     alert(preco);
 }
+
 
 
 function limpar() {
