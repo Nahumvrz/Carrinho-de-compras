@@ -1,12 +1,6 @@
 let valorGeral;
 limpar();
 
-//Acrescentar validações no carrinho
-// 1. Se tiver selecionado um produto valido
-// 2. Se tiver inserido uma quantidade valida
-// 3. Se a entrada não for valida, exibir uma mensagem de erro
-// 4. A mensagem deve ser exibida no tala mesmo, não em um alert
-
 function adicionar() {
     let opcoes = document.getElementById('produto').value;
     let nomeProduto = opcoes.split('-')[0];
